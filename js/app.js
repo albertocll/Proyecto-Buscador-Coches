@@ -69,7 +69,7 @@ puertas.addEventListener('change', (e) =>{
 });
 
 transmision.addEventListener('change', (e) =>{
-    datosBusqueda.transmision = parseInt(e.target.value);
+    datosBusqueda.transmision = e.target.value;
     
     filtrarCoche();
 });
@@ -124,7 +124,7 @@ function llenarSelect(){
 //Función que filtra en base a la búsqueda
 
 function filtrarCoche() {
-     const resultado = autos.filter( filtrarMarca ).filter( filtrarYear ).filter( filtrarMinimo ).filter( filtrarMaximo ).filter( filtrarPuertas ).filter( filtrarPuertas ).filter( filtrarTransmision ).filter( filtrarColor );
+     const resultado = autos.filter( filtrarMarca ).filter( filtrarYear ).filter( filtrarMinimo ).filter( filtrarMaximo ).filter( filtrarPuertas ).filter( filtrarTransmision ).filter( filtrarColor );
     if(resultado.length){
         mostrarCoches(resultado);
     } else {
