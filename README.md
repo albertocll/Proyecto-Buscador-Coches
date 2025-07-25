@@ -2,7 +2,8 @@
 
 Este proyecto es una aplicación web desarrollada con **JavaScript** y estilizada con **Tailwind CSS**. Permite a los usuarios buscar automóviles aplicando múltiples filtros como marca, año, puertas, transmisión, color y rango de precio. La base de datos de autos está simulada en el archivo `db.js`.
 
-🔗 [Ver repositorio en GitHub](https://github.com/albertocll/Proyecto-Buscador-Coches.git)
+🔗 Ver repositorio en GitHub https://github.com/albertocll/Proyecto-Buscador-Coches
+🌐 Probar aplicación en vivo https://fascinating-gelato-d5858c.netlify.app/
 
 ## 🔍 Características
 
