@@ -1,47 +1,120 @@
-# 🚗 Buscador de Automóviles
+🚗 AutoSearchCar - Buscador y Cotizador de Autos
 
-Este proyecto es una aplicación web desarrollada con **JavaScript** y estilizada con **Tailwind CSS**. Permite a los usuarios buscar automóviles aplicando múltiples filtros como marca, año, puertas, transmisión, color y rango de precio. La base de datos de autos está simulada en el archivo `db.js`.
+Aplicación web para buscar y obtener cotizaciones de autos según la marca, el año y el tipo de plan elegido.
 
-🔗 Ver repositorio en GitHub https://github.com/albertocll/Proyecto-Buscador-Coches
-🌐 Probar aplicación en vivo https://fascinating-gelato-d5858c.netlify.app/
+📋 Descripción
 
-## 🔍 Características
+Proyecto desarrollado como parte del aprendizaje de JavaScript Moderno en el curso de Juan Pablo De la Torre Valdez (Udemy).
+Permite al usuario seleccionar marca, año y tipo de plan, calculando el coste aproximado y mostrando un resumen visual del resultado.
+Incluye una base de datos simulada (db.js) para cargar las opciones de autos.
 
-- Filtrado dinámico por:
-  - Marca
-  - Año
-  - Número de puertas
-  - Transmisión
-  - Color
-  - Precio mínimo y máximo
-- Interfaz responsive con Tailwind CSS
-- Código modular y legible
-- Base de datos simulada en JavaScript (`db.js`)
+🚀 Características
 
-## 🛠️ Tecnologías utilizadas
+✅ Búsqueda y filtrado de autos por criterios
 
-- HTML5
-- Tailwind CSS
-- JavaScript (Vanilla)
+✅ Selección de marca, año y tipo de plan
 
-## 📁 Estructura del proyecto
-📂 Proyecto-Buscador-Coches/
-├── index.html
+✅ Cálculo automático del precio estimado
+
+✅ Mensajes de validación y carga con spinner
+
+✅ Datos simulados desde un archivo local (db.js)
+
+✅ Interfaz clara y adaptada a móviles
+
+🛠️ Tecnologías Utilizadas
+
+HTML5 - Estructura del proyecto
+
+CSS3 - Estilos personalizados con Tailwind CSS
+
+JavaScript (ES6+) - Lógica de la aplicación y base de datos simulada
+
+📁 Estructura del Proyecto
+Proyecto-AutoSearchCar/
+│
 ├── css/
-│ ├── app.css
-│ ├── normalize.css
-│ └── skeleton.css
+│   ├── custom.css       # Estilos personalizados
+│   └── tailwind.css     # Estilos con Tailwind CSS
 ├── js/
-│ ├── app.js
-│ └── db.js
-└── README.md
+│   ├── app.js           # Lógica principal
+│   └── db.js            # Base de datos simulada
+├── index.html           # Página principal
+└── README.md            # Documentación
 
-## 🚀 Cómo usar
+🎯 Conceptos de JavaScript Aplicados
 
-1. Clona este repositorio:
-2. git clone https://github.com/albertocll/Proyecto-Buscador-Coches.git
+POO (Programación Orientada a Objetos)
 
-Abre el archivo index.html en tu navegador.
-⚠️ Este proyecto es 100% frontend y no requiere backend ni base de datos real.
+Clases y métodos
 
-<img width="2282" height="1852" alt="image" src="https://github.com/user-attachments/assets/5868969a-1002-44f5-99d1-fa6351ab1d8a" />
+Manipulación del DOM
+
+Eventos de formulario
+
+Temporizadores y spinner de carga
+
+Uso de datos simulados en el cliente
+
+🌐 Demo en Vivo
+
+🔗 Ver Aplicación en Funcionamiento
+
+🚀 Instalación y Uso
+Opción 1: Usar la Demo Online
+
+Accede a: https://autosearchcar.netlify.app/
+
+No requiere instalación
+
+Opción 2: Ejecutar Localmente
+Requisitos
+
+Navegador moderno
+
+Pasos
+
+Clona el repositorio
+
+git clone https://github.com/albertocll/Proyecto-Seguro-coche.git
+
+
+Navega al directorio
+
+cd Proyecto-Seguro-coche
+
+
+Abre index.html en tu navegador
+O usa Live Server en VS Code
+
+💡 Cómo Usar la Aplicación
+
+Selecciona Marca del coche
+
+Selecciona Año del vehículo
+
+Escoge Tipo de plan (Básico o Completo)
+
+Pulsa Buscar/Cotizar
+
+Espera la animación de carga y visualiza el resultado
+
+🎓 Objetivos de Aprendizaje
+
+Práctica con POO en JavaScript
+
+Validación de formularios
+
+Uso de Tailwind CSS
+
+Creación de un flujo de cálculo y feedback al usuario
+
+Simulación de datos desde un archivo JavaScript externo
+
+📄 Licencia
+
+Este proyecto es de uso educativo y forma parte del curso de Juan Pablo De la Torre Valdez (Udemy).
+
+👤 Autor
+
+Alberto – GitHub
