@@ -1,0 +1,133 @@
+/* === RESET GENERAL === */
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #1c92d2, #f2fcfe);
+    font-family: 'Staatliches', cursive;
+    color: #333;
+}
+
+/* === HEADER === */
+.header {
+    background-color: #1c3d5a;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+.header-row {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logo {
+    height: 60px;
+    width: auto;
+}
+.nav-header {
+    display: flex;
+    gap: 2rem;
+}
+.nav-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+.nav-header a:hover {
+    color: #f39c12;
+}
+
+/* === TITULOS Y TEXTOS === */
+.titulo-principal {
+    font-size: 5rem;
+    margin: 3rem 0 1rem;
+    text-align: center;
+    color: #1c3d5a;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #555;
+}
+.titulo-resultados {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: #1c3d5a;
+}
+
+/* === FORMULARIO === */
+.formulario-busqueda {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario-busqueda label {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333;
+}
+.formulario-busqueda select {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+/* === RESULTADOS === */
+.resultados {
+    background: #fff;
+    max-width: 1100px;
+    margin: 0 auto 5rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resultados p {
+    margin: 0;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1.6rem;
+}
+.resultados p span {
+    font-weight: bold;
+    color: #1c3d5a;
+}
+.resultados p:last-of-type {
+    border: none;
+}
+
+/* === ALERTAS === */
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    border-radius: 6px;
+}
+.error {
+    background-color: #e74c3c;
+}
+
+/* === FOOTER === */
+.footer {
+    background: #1c3d5a;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+.footer p {
+    margin: 0;
+}
